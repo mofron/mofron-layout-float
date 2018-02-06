@@ -1,6 +1,6 @@
 {
   "name": "mofron-layout-float",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mofron horizon layout by float-left style.",
   "main": "index.js",
   "scripts": {

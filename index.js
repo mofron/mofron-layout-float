@@ -62,7 +62,7 @@ module.exports = class extends mf.Layout {
             if (false === mf.func.isInclude(fn, 'Component')) {
                 throw new Error('invalid parameter');
             }
-            fn.style({'float' : 'none'});
+            fn.style({'clear' : 'left'});
             this.m_lofloat_none = fn;
         } catch (e) {
             console.error(e.stack);
